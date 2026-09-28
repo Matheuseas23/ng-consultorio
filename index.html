@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NG Consultório | Teleconsulta de Enfermagem • Enfª Natali Garcia</title>
+  <meta name="description" content="Orientação de enfermagem com acolhimento, clareza e praticidade. Conheça a NG Teleconsulta e fale com a Enfª Natali Garcia pelo WhatsApp.">
+  <meta name="keywords" content="NG Consultório, NG Teleconsulta, Natali Garcia, teleconsulta de enfermagem, enfermagem humanizada, orientação em saúde, cuidados com idosos, saúde infantil">
+  <meta name="author" content="NG Consultório">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ngconsultorio.com.br/">
+  <meta property="og:title" content="NG Consultório | Teleconsulta de Enfermagem • Enfª Natali Garcia">
+  <meta property="og:description" content="Orientação de enfermagem com acolhimento, clareza e praticidade. Conheça a NG Teleconsulta e fale com a Enfª Natali Garcia pelo WhatsApp.">
+  <meta property="og:image" content="assets/logo.png">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/logo.png">
+
+  <!-- Tipografia Editorial Médica: Outfit + Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Folha de Estilos de Consultório -->
+  <link rel="stylesheet" href="style.css?v=5.0">
+
+  <!-- Schema.org Estruturado -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalBusiness",
+    "name": "NG Consultório",
+    "alternateName": "NG Teleconsulta",
+    "image": "https://ngconsultorio.com.br/assets/logo.png",
+    "description": "Orientação e cuidado de enfermagem com a Enfª Natali Garcia.",
+    "telephone": "+5511963601677",
+    "founder": {
+      "@type": "Person",
+      "name": "Natali Garcia",
+      "jobTitle": "Enfermeira"
+    },
+    "sameAs": [
+      "https://www.instagram.com/ngteleconsulta/"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ==================================================
+       HEADER FIXO EDITORIAL (Minimalismo Médico)
+       ================================================== -->
+  <header class="site-header" id="site-header">
+    <div class="shell">
+      <div class="header-inner">
+        <a href="#inicio" class="brand-link" aria-label="NG Consultório">
+          <img src="assets/logo.png" alt="NG Consultório" class="brand-logo" width="165" height="52">
+        </a>
+
+        <nav class="desktop-nav" aria-label="Navegação principal">
+          <ul class="nav-links">
+            <li><a href="#inicio" class="nav-item is-active">Início</a></li>
+            <li><a href="#sobre" class="nav-item">Sobre</a></li>
+            <li><a href="#servicos" class="nav-item">Serviços</a></li>
+            <li><a href="#como-funciona" class="nav-item">Como Funciona</a></li>
+            <li><a href="#diferenciais" class="nav-item">Diferenciais</a></li>
+            <li><a href="#familias" class="nav-item">Famílias & Cuidadores</a></li>
+            <li><a href="#duvidas" class="nav-item">Dúvidas</a></li>
+            <li><a href="#contato" class="nav-item">Contato</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <a href="https://wa.me/5511963601677?text=Olá%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20teleconsulta%20de%20enfermagem." 
+             class="action-btn btn-pill-petrol"
+             target="_blank" 
+             rel="noopener noreferrer"
+             aria-label="Agendar atendimento pelo WhatsApp">
+            <span>Agendar pelo WhatsApp</span>
+            <svg width="18" height="18" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </a>
+
+          <button class="mobile-toggle" id="mobile-toggle" aria-expanded="false" aria-controls="mobile-drawer" aria-label="Abrir menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Gaveta Mobile -->
+      <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+        <ul class="mobile-links">
+          <li><a href="#inicio" class="m-link">Início</a></li>
+          <li><a href="#sobre" class="m-link">Sobre o Consultório</a></li>
+          <li><a href="#servicos" class="m-link">Serviços & Orientações</a></li>
+          <li><a href="#como-funciona" class="m-link">Como Funciona</a></li>
+          <li><a href="#diferenciais" class="m-link">Diferenciais</a></li>
+          <li><a href="#familias" class="m-link">Famílias & Cuidadores</a></li>
+          <li><a href="#duvidas" class="m-link">Dúvidas Frequentes</a></li>
+          <li><a href="#contato" class="m-link">Contato</a></li>
+        </ul>
+        <div class="m-action">
+          <a href="https://wa.me/5511963601677?text=Olá%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20teleconsulta%20de%20enfermagem." 
+             class="action-btn btn-pill-petrol w-100"
+             target="_blank" 
+             rel="noopener noreferrer">
+            <span>Agendar pelo WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo-principal">
+
+    <!-- ==================================================
+         02. O HERO CINEMATOGRÁFICO DE CONSULTÓRIO
+         (Vídeo em loop, revelação com tensão antes do texto e scroll indicator)
+         ================================================== -->
+    <section class="hero-stage" id="inicio">
+      
+      <!-- Vídeo em Loop Cinematográfico no Fundo -->
+      <video class="hero-bg-video" autoPlay loop muted playsInline aria-hidden="true" src="assets/hero-bg.mp4"></video>
+      <div class="hero-vignette"></div>
+
+      <div class="shell">
+        <div class="hero-layout-grid">
+          
+          <!-- Bloco Editorial do Hero -->
+          <div class="hero-headline-block">
+            <div class="status-pill" id="hero-status-pill">
+              <span class="status-dot"></span>
+              <span>NG Teleconsulta • Atendimento Online</span>
+            </div>
+
+            <h1 class="hero-headline" id="hero-title">
+              <span class="hero-line-1 block">Cuidado de enfermagem</span>
+              <span class="hero-headline-sub hero-line-2 block">em cada fase da vida.</span>
+            </h1>
+
+            <p class="hero-lead-text" id="hero-lead">
+              Orientação profissional, acolhedora e individualizada para você e sua família, onde estiver.
+            </p>
+
+            <p class="hero-secondary-text" id="hero-secondary">
+              Por meio da NG Teleconsulta, você recebe orientação de enfermagem com mais praticidade, clareza e segurança.
+            </p>
+
+            <div class="hero-actions-row" id="hero-actions">
+              <a href="https://wa.me/5511963601677?text=Olá%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20teleconsulta%20de%20enfermagem." 
+                 class="action-btn btn-pill-petrol btn-lg" 
+                 target="_blank" 
+                 rel="noopener noreferrer">
+                <span>Agendar pelo WhatsApp</span>
+                <svg width="18" height="18" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </a>
+
+              <a href="#sobre" class="action-btn btn-pill-ghost btn-lg">
+                <span>Conhecer o consultório</span>
+              </a>
+            </div>
+
+            <!-- Indicadores de Confiança -->
+            <div class="trust-pill-row" id="hero-trust">
+              <span class="trust-badge">Atendimento online</span>
+              <span class="trust-sep">/</span>
+              <span class="trust-badge">Cuidado humanizado</span>
+              <span class="trust-sep">/</span>
+              <span class="trust-badge">Orientação profissional</span>
+            </div>
+          </div>
+
+          <!-- Card Panorâmico da Enfermeira -->
+          <div class="hero-panoramic-card" id="hero-card">
+            <div class="panoramic-media">
+              <img src="assets/natali-garcia.jpg" 
+                   alt="Enfª Natali Garcia - Atendimento NG Consultório" 
+                   class="panoramic-img"
+                   loading="eager">
+              <div class="panoramic-overlay"></div>
+            </div>
+
+            <div class="panoramic-caption">
+              <div class="caption-inner">
+                <span class="caption-kicker">Responsável Técnica</span>
+                <strong class="caption-name">Enfª Natali Garcia</strong>
+                <p class="caption-desc">Orientação de enfermagem individualizada para você e sua família.</p>
+              </div>
+              <div class="caption-tag">
+                <span>NG Consultório</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Scroll Indicator Cinematográfico -->
+      <div class="scroll-indicator-wrap" id="hero-scroll-indicator">
+        <span>Desça para explorar</span>
+        <div class="scroll-pill-mouse">
+          <div class="scroll-mouse-wheel"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================================
+         SEÇÃO SOBRE (Layout Editorial Amplo com Monograma)
+         ================================================== -->
+    <section class="editorial-section" id="sobre">
+      <div class="shell">
+        
+        <div class="editorial-header">
+          <span class="section-kicker">Sobre o NG Consultório</span>
+          <h2 class="editorial-title">Cuidar também é prevenir.</h2>
+        </div>
+
+        <div class="editorial-grid">
+          
+          <div class="editorial-left-col">
+            <div class="quote-card">
+              <div class="quote-monogram-bg" aria-hidden="true">
+                <img src="assets/logo.png" alt="" class="faded-monogram">
+              </div>
+              <div class="quote-content">
+                <span class="quote-mark">“</span>
+                <p class="quote-phrase">Cuidado em cada fase da vida.</p>
+                <div class="quote-signature">
+                  <div class="sig-line"></div>
+                  <div>
+                    <strong class="sig-name">Enfª Natali Garcia</strong>
+                    <span class="sig-role">Responsável pelo NG Consultório</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="editorial-right-col">
+            <div class="text-body-editorial">
+              <p class="lead-paragraph">
+                A <strong>NG Consultório</strong> nasceu para aproximar a orientação de enfermagem da rotina das pessoas e das famílias.
+              </p>
+              <p>
+                Por meio da <strong>NG Teleconsulta</strong>, a <strong>Enfª Natali Garcia</strong> oferece um espaço de escuta, orientação e cuidado individualizado. Nosso foco é fornecer suporte qualificado para esclarecer dúvidas, organizar rotinas preventivas e apoiar decisões de cuidado no dia a dia.
+              </p>
+              <p>
+                O atendimento é conduzido com sensibilidade, transparência e respeito à realidade de cada pessoa, garantindo acolhimento próximo mesmo no formato digital.
+              </p>
+            </div>
+
+            <!-- Faixa Horizontal de Pilares da Apresentação -->
+            <div class="pillars-mini-row">
+              <div class="mini-pillar">
+                <span class="mini-label">Marca Principal</span>
+                <strong class="mini-val">NG Consultório</strong>
+              </div>
+              <div class="mini-pillar">
+                <span class="mini-label">Serviço Online</span>
+                <strong class="mini-val">NG Teleconsulta</strong>
+              </div>
+              <div class="mini-pillar">
+                <span class="mini-label">Atendimento</span>
+                <strong class="mini-val">Enfª Natali Garcia</strong>
+              </div>
+            </div>
+
+            <div class="editorial-cta">
+              <a href="https://wa.me/5511963601677?text=Olá%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20teleconsulta%20de%20enfermagem." 
+                 class="action-btn btn-pill-petrol" 
+                 target="_blank" 
+                 rel="noopener noreferrer">
+                <span>Falar com a Enfª Natali Garcia</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================================================
+         SERVIÇOS (Cards Médicos de Alto Padrão)
+         ================================================== -->
+    <section class="services-stage" id="servicos">
+      <div class="shell">
+        
+        <div class="stage-head text-center">
+          <span class="section-kicker">Áreas de Atendimento</span>
+          <h2 class="stage-title">Orientação para cuidar com mais segurança.</h2>
+          <p class="stage-subtitle">
+            Conte com um atendimento acolhedor para compreender melhor suas necessidades de cuidado e as da sua família.
+          </p>
+        </div>
+
+        <div class="medical-cards-grid">
+          
+          <!-- Serviço 1 -->
+          <article class="medical-card">
+            <div class="card-top-bar">
+              <span class="card-number">01</span>
+              <span class="card-chip">Infância</span>
+            </div>
+            <h3 class="card-heading">Saúde infantil</h3>
+            <p class="card-summary">
+              Orientações para pais e responsáveis sobre cuidados e dúvidas do dia a dia.
+            </p>
+            <div class="card-foot-link">
+              <span>Orientação de Enfermagem</span>
+            </div>
+          </article>
+
+          <!-- Serviço 2 -->
+          <article class="medical-card">
+            <div class="card-top-bar">
+              <span class="card-number">02</span>
+              <span class="card-chip">Melhor Idade</span>
+            </div>
+            <h3 class="card-heading">Cuidados com idosos</h3>
+            <p class="card-summary">
+              Apoio para familiares e cuidadores na rotina de cuidado e prevenção.
+            </p>
+            <div class="card-foot-link">
+              <span>Apoio a Cuidadores</span>
+            </div>
+          </article>
+
+          <!-- Serviço 3 -->
+          <article class="medical-card">
+            <div class="card-top-bar">
+              <span class="card-number">03</span>
+              <span class="card-chip">Prevenção</span>
+            </div>
+            <h3 class="card-heading">Pressão arterial e diabetes</h3>
+            <p class="card-summary">
+              Orientações para acompanhar melhor a saúde e organizar a rotina de cuidados.
+            </p>
+            <div class="card-foot-link">
+              <span>Acompanhamento Contínuo</span>
+            </div>
+          </article>
+
+          <!-- Serviço 4 -->
+          <article class="medical-card">
+            <div class="card-top-bar">
+              <span class="card-number">04</span>
+              <span class="card-chip">Rotina</span>
+            </div>
+            <h3 class="card-heading">Uso seguro de medicamentos</h3>
+            <p class="card-summary">
+              Informações para compreender melhor os cuidados relacionados aos medicamentos.
+            </p>
+            <div class="card-foot-link">
+              <span>Organização e Clareza</span>
+            </div>
+          </article>
+
+          <!-- Serviço 5 -->
+          <article class="medical-card">
+            <div class="card-top-bar">
+              <span class="card-number">05</span>
+              <span class="card-chip">Cuidados</span>
+            </div>
+            <h3 class="card-heading">Curativos e feridas</h3>
+            <p class="card-summary">
+              Orientações gerais sobre cuidados e acompanhamento, respeitando os limites do atendimento online.
+            </p>
+            <div class="card-foot-link">
+              <span>Direcionamento Seguro</span>
+            </div>
+          </article>
+
+          <!-- Serviço 6 -->
+          <article class="medical-card">
+            <div class="card-top-bar">
+              <span class="card-number">06</span>
+              <span class="card-chip">Bem-Estar</span>
+            </div>
+            <h3 class="card-heading">Orientações gerais de saúde</h3>
+            <p class="card-summary">
+              Um espaço para conversar sobre dúvidas e necessidades de cuidado.
+            </p>
+            <div class="card-foot-link">
+              <span>Escuta Individualizada</span>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Box de Limites Éticos -->
+        <div class="clinical-disclaimer">
+          <div class="disclaimer-badge">Nota Ética</div>
+          <p class="disclaimer-text">
+            O foco da NG Teleconsulta é a orientação e o cuidado humanizado de enfermagem. O atendimento online não substitui emergências nem avaliações médicas presenciais quando necessárias.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================================================
+         03. O SCROLL QUE PARECE CÂMERA (PIN SCROLL SCROLLTRIGGER)
+         (Passos de Atendimento com Sequenciamento 0.2s e ease power3.out)
+         ================================================== -->
+    <section class="process-stage" id="como-funciona">
+      <div class="shell camera-pin-wrapper">
+        
+        <div class="stage-head text-center">
+          <span class="section-kicker">Passo a Passo</span>
+          <h2 class="stage-title">Um cuidado simples, próximo e acessível.</h2>
+          <p class="stage-subtitle">
+            Quatro etapas organizadas para você receber orientação profissional com agilidade e acolhimento.
+          </p>
+        </div>
+
+        <div class="steps-columns" id="camera-steps-columns">
+          
+          <div class="flow-step-item">
+            <div class="step-giant-number">01</div>
+            <h3 class="step-heading">Entre em contato</h3>
+            <p class="step-detail">Fale com a NG Consultório pelo WhatsApp oficial de forma direta.</p>
+          </div>
+
+          <div class="flow-step-item">
+            <div class="step-giant-number">02</div>
+            <h3 class="step-heading">Explique sua necessidade</h3>
+            <p class="step-detail">Conte brevemente o que você precisa e tire suas dúvidas iniciais de saúde.</p>
+          </div>
+
+          <div class="flow-step-item">
+            <div class="step-giant-number">03</div>
+            <h3 class="step-heading">Escolha um horário</h3>
+            <p class="step-detail">Verifique as opções disponíveis na agenda para o atendimento online por vídeo.</p>
+          </div>
+
+          <div class="flow-step-item">
+            <div class="step-giant-number">04</div>
+            <h3 class="step-heading">Receba sua orientação</h3>
+            <p class="step-detail">Converse com a Enfª Natali Garcia de forma acolhedora, individualizada e segura.</p>
+          </div>
+
+        </div>
+
+        <div class="process-cta-wrap text-center">
+          <a href="https://wa.me/5511963601677?text=Olá%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20teleconsulta%20de%20enfermagem." 
+             class="action-btn btn-pill-petrol btn-lg" 
+             target="_blank" 
+             rel="noopener noreferrer">
+            <span>Quero falar pelo WhatsApp</span>
+            <svg width="18" height="18" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================================================
+         DIFERENCIAIS (Nossos Pilares)
+         ================================================== -->
+    <section class="diferentials-stage" id="diferenciais">
+      <div class="shell">
+        
+        <div class="stage-head text-center">
+          <span class="section-kicker">Nossos Pilares</span>
+          <h2 class="stage-title">Cuidado próximo, mesmo à distância.</h2>
+          <p class="stage-subtitle">
+            Conheça os valores essenciais que orientam a prática do NG Consultório.
+          </p>
+        </div>
+
+        <div class="asymmetric-diff-grid">
+          
+          <div class="diff-panel">
+            <span class="panel-idx">01</span>
+            <div class="panel-content">
+              <h3 class="panel-title">Atendimento humanizado</h3>
+              <p class="panel-desc">Escuta dedicada, atenta e empática para acolher suas dúvidas e necessidades sem pressa.</p>
+            </div>
+          </div>
+
+          <div class="diff-panel">
+            <span class="panel-idx">02</span>
+            <div class="panel-content">
+              <h3 class="panel-title">Comunicação clara</h3>
+              <p class="panel-desc">Orientações explicadas de forma simples e direta, sem termos técnicos que gerem insegurança.</p>
+            </div>
+          </div>
+
+          <div class="diff-panel">
+            <span class="panel-idx">03</span>
+            <div class="panel-content">
+              <h3 class="panel-title">Praticidade sem sair de casa</h3>
+              <p class="panel-desc">Acesso seguro à orientação de enfermagem onde você estiver, poupando tempo e deslocamento.</p>
+            </div>
+          </div>
+
+          <div class="diff-panel">
+            <span class="panel-idx">04</span>
+            <div class="panel-content">
+              <h3 class="panel-title">Orientação individualizada</h3>
+              <p class="panel-desc">Direcionamentos moldados às características, rotina e particularidades da sua família.</p>
+            </div>
+          </div>
+
+          <div class="diff-panel">
+            <span class="panel-idx">05</span>
+            <div class="panel-content">
+              <h3 class="panel-title">Cuidado em cada fase da vida</h3>
+              <p class="panel-desc">Suporte qualificado desde os primeiros passos da infância até o apoio dedicado à pessoa idosa.</p>
+            </div>
+          </div>
+
+          <div class="diff-panel">
+            <span class="panel-idx">06</span>
+            <div class="panel-content">
+              <h3 class="panel-title">Canal direto de contato</h3>
+              <p class="panel-desc">Agilidade no atendimento e agendamento pelo WhatsApp oficial do consultório.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================================================
+         FAMÍLIAS & CUIDADORES (Bloco Imersivo Azul Petróleo Profundo)
+         ================================================== -->
+    <section class="caregivers-stage" id="familias">
+      <div class="shell">
+        <div class="caregivers-immersive-box">
+          
+          <div class="caregivers-info">
+            <span class="box-kicker">Acolhimento & Orientação</span>
+            <h2 class="box-headline">Você não precisa cuidar de tudo sozinho.</h2>
+            <p class="box-body">
+              Pais, familiares e cuidadores muitas vezes precisam tomar decisões importantes no dia a dia. A <strong>NG Teleconsulta</strong> oferece um espaço de escuta e orientação para ajudar você a cuidar com mais tranquilidade e segurança.
+            </p>
+            <div class="box-action">
+              <a href="https://wa.me/5511963601677?text=Olá%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20teleconsulta%20de%20enfermagem." 
+                 class="action-btn btn-pill-gold btn-lg" 
+                 target="_blank" 
+                 rel="noopener noreferrer">
+                <span>Falar com a Enfª Natali</span>
+                <svg width="18" height="18" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="caregivers-quote-side">
+            <div class="quote-glass-panel">
+              <p class="quote-statement">
+                “O cuidado verdadeiro começa quando escutamos com atenção a rotina de quem cuida.”
+              </p>
+              <div class="quote-author-meta">
+                <strong>Enfª Natali Garcia</strong>
+                <span>Responsável pelo NG Consultório</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================================
+         INSTAGRAM (Editorial Integrado @ngteleconsulta)
+         ================================================== -->
+    <section class="instagram-stage" id="instagram">
+      <div class="shell">
+        <div class="instagram-frame">
+          <div class="insta-intro">
+            <span class="section-kicker">Redes Oficiais</span>
+            <h2 class="insta-heading">Informação para cuidar melhor.</h2>
+            <p class="insta-summary">
+              No Instagram, compartilhamos orientações práticas sobre prevenção, saúde e bem-estar para acompanhar você no dia a dia.
+            </p>
+            <a href="https://www.instagram.com/ngteleconsulta/" 
+               class="action-btn btn-pill-ghost" 
+               target="_blank" 
+               rel="noopener noreferrer">
+              <span>Conhecer o Instagram @ngteleconsulta</span>
+            </a>
+          </div>
+
+          <div class="insta-highlights">
+            <div class="insta-pill-card">
+              <span class="ih-tag">Prevenção</span>
+              <strong class="ih-title">Saúde & Autonomia</strong>
+              <p class="ih-desc">Orientações contínuas sobre hábitos saudáveis e monitoramento da rotina.</p>
+            </div>
+            <div class="insta-pill-card">
+              <span class="ih-tag">Acolhimento</span>
+              <strong class="ih-title">Rotina Familiar</strong>
+              <p class="ih-desc">Dicas para apoiar cuidadores e simplificar os cuidados em casa.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================================
+         FAQ / DÚVIDAS FREQUENTES (Accordion)
+         ================================================== -->
+    <section class="faq-stage" id="duvidas">
+      <div class="shell shell-narrow">
+        
+        <div class="stage-head text-center">
+          <span class="section-kicker">Dúvidas Frequentes</span>
+          <h2 class="stage-title">Perguntas Frequentes</h2>
+          <p class="stage-subtitle">
+            Transparência e respostas claras sobre a teleconsulta de enfermagem.
+          </p>
+        </div>
+
+        <div class="clean-accordion" id="faq-list">
+          
+          <div class="accordion-row">
+            <button class="acc-trigger" aria-expanded="false">
+              <span class="acc-q">O que é uma teleconsulta de enfermagem?</span>
+              <span class="acc-sym">+</span>
+            </button>
+            <div class="acc-drawer">
+              <div class="acc-body">
+                A teleconsulta de enfermagem é uma consulta de saúde realizada por videochamada na qual a enfermeira avalia as necessidades de cuidado, esclarece dúvidas, orienta sobre prevenção de riscos, rotinas de saúde e cuidados no ambiente doméstico.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-row">
+            <button class="acc-trigger" aria-expanded="false">
+              <span class="acc-q">Quem pode entrar em contato com a NG Teleconsulta?</span>
+              <span class="acc-sym">+</span>
+            </button>
+            <div class="acc-drawer">
+              <div class="acc-body">
+                Qualquer pessoa, pai, mãe, familiar ou cuidador que busque orientação de enfermagem para cuidar melhor de si ou de um ente querido, em qualquer fase da vida.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-row">
+            <button class="acc-trigger" aria-expanded="false">
+              <span class="acc-q">Quais assuntos podem ser conversados durante o atendimento?</span>
+              <span class="acc-sym">+</span>
+            </button>
+            <div class="acc-drawer">
+              <div class="acc-body">
+                Dúvidas sobre saúde infantil, rotina e cuidados com pessoas idosas, orientações para acompanhar pressão arterial e diabetes, organização e uso seguro de medicamentos prescritos, orientações gerais sobre feridas e curativos, e dúvidas de saúde em geral.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-row">
+            <button class="acc-trigger" aria-expanded="false">
+              <span class="acc-q">Como funciona o agendamento?</span>
+              <span class="acc-sym">+</span>
+            </button>
+            <div class="acc-drawer">
+              <div class="acc-body">
+                O agendamento é feito diretamente pelo WhatsApp oficial do NG Consultório. Você entra em contato, apresenta brevemente sua necessidade e alinhamos o melhor horário disponível para a sua teleconsulta.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-row">
+            <button class="acc-trigger" aria-expanded="false">
+              <span class="acc-q">O atendimento é realizado por vídeo?</span>
+              <span class="acc-sym">+</span>
+            </button>
+            <div class="acc-drawer">
+              <div class="acc-body">
+                Sim. A teleconsulta ocorre por videochamada privativa e segura, permitindo um contato direto, acolhedor e próximo no conforto da sua casa.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-row row-alert">
+            <button class="acc-trigger" aria-expanded="false">
+              <span class="acc-q">A teleconsulta substitui um atendimento de emergência?</span>
+              <span class="acc-sym">+</span>
+            </button>
+            <div class="acc-drawer">
+              <div class="acc-body">
+                <strong>A teleconsulta não substitui atendimento de emergência ou avaliação presencial quando necessária.</strong> Em situações graves, sinais de risco ou urgência, procure imediatamente um serviço de pronto atendimento ou o serviço de emergência da sua região (SAMU 192).
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-row">
+            <button class="acc-trigger" aria-expanded="false">
+              <span class="acc-q">Como recebo as orientações após o atendimento?</span>
+              <span class="acc-sym">+</span>
+            </button>
+            <div class="acc-drawer">
+              <div class="acc-body">
+                Ao término do atendimento, as orientações de enfermagem combinadas são resumidas de forma clara e compartilhadas diretamente com você para que você possa consultar e aplicar com facilidade.
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================================================
+         CTA FINAL (O Bloco Nobre em Azul Petróleo)
+         ================================================== -->
+    <section class="final-cta-stage" id="contato">
+      <div class="shell">
+        <div class="final-card-dark">
+          <div class="dark-card-inner text-center">
+            
+            <div class="dark-kicker-pill">
+              <span>Atendimento Privativo & Acolhedor</span>
+            </div>
+
+            <h2 class="dark-card-headline">Cuidar começa com uma conversa.</h2>
+
+            <p class="dark-card-sub">
+              Fale com a NG Consultório e descubra como receber orientação de enfermagem com mais acolhimento, clareza e praticidade.
+            </p>
+
+            <div class="dark-card-actions">
+              <a href="https://wa.me/5511963601677?text=Olá%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20teleconsulta%20de%20enfermagem." 
+                 class="action-btn btn-pill-gold btn-xl" 
+                 target="_blank" 
+                 rel="noopener noreferrer">
+                <span>Falar com a Enfª Natali</span>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+
+            <p class="direct-number-notice">
+              WhatsApp Oficial: <strong>(11) 96360-1677</strong>
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================================================
+       RODAPÉ EDITORIAL
+       ================================================== -->
+  <footer class="site-footer">
+    <div class="shell">
+      
+      <div class="footer-columns">
+        <div class="footer-col-main">
+          <img src="assets/logo.png" alt="NG Consultório" class="footer-brand" width="160">
+          <p class="footer-tagline">“Cuidado em cada fase da vida.”</p>
+          <p class="footer-author-text">Enfª Natali Garcia • Responsável pelo NG Consultório</p>
+        </div>
+
+        <div class="footer-col-nav">
+          <h4 class="col-title">Navegação</h4>
+          <ul class="footer-list">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre o Consultório</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#como-funciona">Como Funciona</a></li>
+            <li><a href="#diferenciais">Diferenciais</a></li>
+            <li><a href="#duvidas">Dúvidas Frequentes</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col-channels">
+          <h4 class="col-title">Canais</h4>
+          <ul class="footer-list">
+            <li>
+              <a href="https://wa.me/5511963601677?text=Olá%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20teleconsulta%20de%20enfermagem." target="_blank" rel="noopener noreferrer">
+                WhatsApp: (11) 96360-1677
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/ngteleconsulta/" target="_blank" rel="noopener noreferrer">
+                Instagram: @ngteleconsulta
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Aviso de Emergências SAMU -->
+      <div class="footer-emergency-strip">
+        <p>
+          <strong>Aviso sobre emergências:</strong> A teleconsulta não substitui atendimento de emergência ou avaliação presencial quando necessária. Em situações graves, sinais de risco ou urgência, procure imediatamente um pronto atendimento ou ligue para o SAMU (192).
+        </p>
+      </div>
+
+      <div class="footer-bottom-row">
+        <p>© 2026 NG Consultório. Todos os direitos reservados.</p>
+        <div class="footer-legal">
+          <a href="#inicio">Voltar ao topo ↑</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Botão Flutuante de WhatsApp -->
+  <aside class="quick-whatsapp-wrap" aria-label="Contato rápido WhatsApp">
+    <a href="https://wa.me/5511963601677?text=Olá%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20teleconsulta%20de%20enfermagem." 
+       class="quick-whatsapp-btn" 
+       target="_blank" 
+       rel="noopener noreferrer"
+       aria-label="Abrir WhatsApp oficial">
+      <svg viewBox="0 0 24 24" fill="currentColor" class="w-svg" aria-hidden="true">
+        <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M9.53 7.34C9.36 7.34 9.09 7.4 8.87 7.65C8.65 7.89 8.02 8.49 8.02 9.71C8.02 10.93 8.91 12.11 9.03 12.28C9.16 12.45 10.74 14.88 13.16 15.93C15.17 16.8 15.58 16.63 16.02 16.59C16.46 16.54 17.44 16 17.65 15.42C17.85 14.84 17.85 14.34 17.79 14.24C17.73 14.14 17.57 14.08 17.32 13.95C17.07 13.83 15.86 13.23 15.63 13.15C15.41 13.06 15.24 13.02 15.08 13.27C14.91 13.51 14.44 14.08 14.3 14.24C14.15 14.41 14.01 14.43 13.76 14.31C13.51 14.18 12.71 13.92 11.76 13.08C11.02 12.42 10.52 11.61 10.38 11.36C10.23 11.11 10.36 10.98 10.49 10.85C10.6 10.74 10.74 10.56 10.86 10.41C10.99 10.27 11.03 10.17 11.11 10.00C11.19 9.84 11.15 9.70 11.09 9.58C11.03 9.45 10.56 8.30 10.36 7.82C10.17 7.35 9.97 7.42 9.82 7.41C9.68 7.41 9.53 7.34 9.53 7.34Z"/>
+      </svg>
+    </a>
+  </aside>
+
+  <!-- Bibliotecas de Movimento: GSAP 3.12, ScrollTrigger e Lenis 1.1 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
+  <script src="script.js?v=5.0"></script>
+</body>
+</html>

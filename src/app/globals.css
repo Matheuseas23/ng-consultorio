@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --petrol-deep: #0c3540;
+  --petrol-base: #114856;
+  --gold-warm: #c29b53;
+  --bg-page: #fbfbfa;
+}
+
+html {
+  background-color: #fbfbfa;
+  color: #1d2b30;
+  scroll-behavior: auto !important;
+}
+
+body {
+  background-color: #fbfbfa;
+  color: #1d2b30;
+  font-family: var(--font-jakarta), sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-outfit), sans-serif;
+  color: #0c3540;
+}
+
+/* Custom scrollbar discreta e nobre */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #fbfbfa;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(12, 53, 64, 0.2);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0c3540;
+}
