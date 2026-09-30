@@ -96,16 +96,6 @@ export default function Hero() {
       ref={heroRef}
       className="relative min-h-[100svh] flex items-center pt-28 pb-16 bg-ivory-page overflow-hidden"
     >
-      {/* Vídeo em Loop no Background */}
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        aria-hidden="true"
-        className="absolute inset-0 w-full h-full object-cover z-0 opacity-25 filter contrast-105"
-        src="/hero-bg.mp4"
-      />
       <div className="absolute inset-0 bg-radial-light z-0 pointer-events-none" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
