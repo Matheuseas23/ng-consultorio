@@ -6,7 +6,7 @@ import { Plus } from 'lucide-react';
 const FAQS = [
   {
     q: 'O que é uma teleconsulta de enfermagem?',
-    a: 'A teleconsulta de enfermagem é uma consulta de saúde realizada por videochamada na qual a enfermeira avalia as necessidades de cuidado, esclarece dúvidas, orienta sobre prevenção de riscos, rotinas de saúde e cuidados no ambiente doméstico.',
+    a: 'A teleconsulta de enfermagem é uma consulta de saúde realizada por videochamada na qual a enfermeira avalia as necessidades de cuidado, esclarece dúvidas, orienta sobre prevenção de riscos, rotinas de saúde e cuidados no ambiente doméstico com respaldo ético do Conselho de Enfermagem.',
   },
   {
     q: 'Quem pode entrar em contato com a NG Teleconsulta?',
@@ -18,7 +18,7 @@ const FAQS = [
   },
   {
     q: 'Como funciona o agendamento?',
-    a: 'O agendamento é feito diretamente pelo WhatsApp oficial do NG Consultório. Você entra em contato, apresenta brevemente sua necessidade e alinhamos o melhor horário disponível para a sua teleconsulta.',
+    a: 'O agendamento é feito diretamente pelo WhatsApp oficial do NG Consultório. Você entra em contato, apresenta brevemente sua necessidade e alinhamos o melhor horário disponível na agenda para a sua teleconsulta.',
   },
   {
     q: 'O atendimento é realizado por vídeo?',
@@ -26,12 +26,12 @@ const FAQS = [
   },
   {
     q: 'A teleconsulta substitui um atendimento de emergência?',
-    a: 'A teleconsulta não substitui atendimento de emergência ou avaliação presencial quando necessária. Em situações graves, sinais de risco ou urgência, procure imediatamente um serviço de pronto atendimento ou o serviço de emergência da sua região (SAMU 192).',
+    a: 'A teleconsulta não substitui atendimento de emergência ou avaliação médica presencial quando necessária. Em situações graves, sinais de risco agudo, dor torácica intensa, falta de ar severa ou urgência, procure imediatamente um pronto atendimento ou ligue para o SAMU (192).',
     isAlert: true,
   },
   {
     q: 'Como recebo as orientações após o atendimento?',
-    a: 'Ao término do atendimento, as orientações de enfermagem combinadas são resumidas de forma clara e compartilhadas diretamente com você para que você possa consultar e aplicar com facilidade.',
+    a: 'Ao término do atendimento, as orientações de enfermagem combinadas são resumidas de forma clara e compartilhadas diretamente com você pelo WhatsApp para que você possa consultar e aplicar com facilidade na rotina.',
   },
 ];
 

@@ -18,7 +18,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://ngconsultorio.com.br'),
+  metadataBase: new URL('https://ng-consultorio.vercel.app'),
   title: 'NG Consultório | Teleconsulta de Enfermagem • Enfª Natali Garcia',
   description:
     'Orientação de enfermagem com acolhimento, clareza e praticidade. Conheça a NG Teleconsulta e fale com a Enfª Natali Garcia pelo WhatsApp.',

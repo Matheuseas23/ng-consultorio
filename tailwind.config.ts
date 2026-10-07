@@ -30,6 +30,8 @@ const config: Config = {
       fontFamily: {
         title: ['var(--font-outfit)', 'sans-serif'],
         body: ['var(--font-jakarta)', 'sans-serif'],
+        heading: ['var(--font-outfit)', 'sans-serif'],
+        sans: ['var(--font-jakarta)', 'sans-serif'],
       },
       borderRadius: {
         card: '20px',

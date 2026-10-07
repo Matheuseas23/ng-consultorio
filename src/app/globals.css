@@ -12,7 +12,7 @@
 html {
   background-color: #fbfbfa;
   color: #1d2b30;
-  scroll-behavior: auto !important;
+  scroll-behavior: auto !important; /* Lenis gerencia a rolagem suave */
 }
 
 body {
@@ -20,7 +20,9 @@ body {
   color: #1d2b30;
   font-family: var(--font-jakarta), sans-serif;
   overflow-x: hidden;
+  letter-spacing: -0.01em;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -28,7 +30,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #0c3540;
 }
 
-/* Custom scrollbar discreta e nobre */
+.bg-radial-light {
+  background: radial-gradient(circle at 50% 0%, rgba(234, 241, 243, 0.8) 0%, transparent 70%);
+}
+
+/* Scrollbar discreta e clínica */
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -41,4 +47,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #0c3540;
+}
+
+:focus-visible {
+  outline: 2px solid #c29b53;
+  outline-offset: 2px;
+}
+
+.transparent-bg-preserve-margin {
+  background: transparent !important;
 }

@@ -1,14 +1,45 @@
 'use client';
 
-import React from 'react';
-import { ArrowRight } from 'lucide-react';
+import React, { useEffect, useRef } from 'react';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { CheckCircle2, ArrowRight } from 'lucide-react';
+
+gsap.registerPlugin(ScrollTrigger);
 
 export default function CaregiversPillar() {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const cardRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      gsap.fromTo(
+        cardRef.current,
+        { opacity: 0, y: 40 },
+        {
+          scrollTrigger: {
+            trigger: cardRef.current,
+            start: 'top 85%',
+          },
+          opacity: 1,
+          y: 0,
+          duration: 1.1,
+          ease: 'power3.out',
+        }
+      );
+    }, containerRef);
+
+    return () => ctx.revert();
+  }, []);
+
   return (
-    <section id="familias" className="py-24 bg-white">
+    <section id="familias" ref={containerRef} className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        <div className="bg-gradient-to-br from-petrol-deep to-[#061c24] rounded-[32px] p-8 sm:p-12 md:p-16 text-white shadow-card relative overflow-hidden">
+        <div
+          ref={cardRef}
+          className="bg-gradient-to-br from-petrol-deep to-[#061c24] rounded-[32px] p-8 sm:p-12 md:p-16 text-white shadow-card relative overflow-hidden"
+        >
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
             
             {/* Lado Esquerdo */}
@@ -19,9 +50,30 @@ export default function CaregiversPillar() {
               <h2 className="font-title text-3xl sm:text-5xl font-extrabold text-white leading-tight mb-6">
                 Você não precisa cuidar de tudo sozinho.
               </h2>
+
               <p className="text-white/85 text-base sm:text-lg leading-relaxed mb-8">
                 Pais, familiares e cuidadores muitas vezes precisam tomar decisões importantes no dia a dia. A <strong>NG Teleconsulta</strong> oferece um espaço de escuta e orientação para ajudar você a cuidar com mais tranquilidade e segurança.
               </p>
+
+              {/* Lista de Benefícios Clínicos */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8 text-sm text-white/90">
+                <div className="flex items-center gap-2.5">
+                  <CheckCircle2 className="w-4 h-4 text-gold-warm shrink-0" />
+                  <span>Alívio da sobrecarga da rotina</span>
+                </div>
+                <div className="flex items-center gap-2.5">
+                  <CheckCircle2 className="w-4 h-4 text-gold-warm shrink-0" />
+                  <span>Prevenção de erros com medicações</span>
+                </div>
+                <div className="flex items-center gap-2.5">
+                  <CheckCircle2 className="w-4 h-4 text-gold-warm shrink-0" />
+                  <span>Rotinas adaptadas à sua casa</span>
+                </div>
+                <div className="flex items-center gap-2.5">
+                  <CheckCircle2 className="w-4 h-4 text-gold-warm shrink-0" />
+                  <span>Direcionamento ético e responsável</span>
+                </div>
+              </div>
 
               <div>
                 <a
